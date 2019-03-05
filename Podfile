@@ -10,7 +10,6 @@ def app_pods
     pod 'ObjectMapper'
     pod 'SDWebImage/WebP'
     pod 'ReachabilitySwift'
-    pod 'ViewAnimator'
     pod 'Reusable', '~> 4.0'
     pod 'SVPullToRefresh'
 
