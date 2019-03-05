@@ -1,7 +1,8 @@
 ## TIkiHomeTest
 ###1.ScreenShot
 ![MacDown Screenshot](https://i.imgur.com/ED3c3uF.png)
-###2.Code 
+
+### 2.Code 
 #### a) MinWidth:
         func caculatorMinWidth(withConstrainedHeight height: CGFloat, font: UIFont) -> (CGFloat,String)? {
         let allRangeSpace = self.ranges(of: " ")
