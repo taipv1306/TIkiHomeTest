@@ -1,5 +1,5 @@
 ## TIkiHomeTest
-###1.ScreenShot
+### 1.ScreenShot
 ![MacDown Screenshot](https://i.imgur.com/ED3c3uF.png)
 
 ### 2.Code 
@@ -32,5 +32,8 @@
         
         return ceil(boundingBox.width)
     }
+## Author
+
+Tai Pham,zickone619@gmail.com
 
 
