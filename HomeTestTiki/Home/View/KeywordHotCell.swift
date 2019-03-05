@@ -47,7 +47,7 @@ extension KeywordHotCell : UICollectionViewDelegateFlowLayout {
         let defaultWidth : CGFloat = 121
         guard let keywords = self.viewModel?.item as? [Keyword] else {return CGSize(width: 188, height: heightCell) }
         let textAtIndex = keywords[indexPath.row]
-        let data : (CGFloat,String)? = (textAtIndex.keyword ?? "").caculatorMinWidth(withConstrainedHeight: heightLabel, font: UIFont.systemFont(ofSize: 17))
+        let data : (CGFloat,String)? = (textAtIndex.keyword ?? "").caculatorMinWidth(withConstrainedHeight: heightLabel, font: UIFont.systemFont(ofSize: 14))
 
         
         return CGSize(width: data?.0 ?? defaultWidth , height: heightCell)
